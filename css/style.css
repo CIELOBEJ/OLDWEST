@@ -30,10 +30,6 @@ p {
   color: #fff;
 }
 
-#nav-mobile {
-  
-}
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
@@ -43,20 +39,20 @@ p {
 
 .section-intro {
   height: 100%;
-  margin-bottom: 100px;
-}
-
-.section-intro2{
-  height: 100%;
-  width: 100%;
+  width: : 100%;
   margin-bottom: 100px;
 }
 
 .header {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .header-subtitle {
+  margin-top: 10%;
+  font-size: 1.3em;
+}
+
+.subtitle {
   margin-top: 5%;
   font-size: 1.3em;
 }
@@ -85,12 +81,7 @@ p {
 
 .col-servizi {
   margin-top: 60px;
-  margin-bottom: 100px;
-}
-
-.col-menu {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .icon-block {
@@ -106,8 +97,27 @@ p {
   line-height: 1.6em;
 }
 
-.section-registrazione {
+.section-intro2 {
   height: 100%;
+  width: 100%;
+}
+
+.container-intro2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-menu {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.section-registrazione { 
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -136,14 +146,11 @@ p {
   line-height: 0,5em;
 }
 
-.section-menu{
-  height: 100%;
-  margin-bottom: 100px;
-}
-
 .section-prenota {
-  height: 100%
-  margin-bottom:100px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .prenota-icon {
