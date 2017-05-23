@@ -11,7 +11,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-  <!--Google Fonts-->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Roboto+Slab:700" rel="stylesheet">
 
   <!-- Font Awesome -->
@@ -20,54 +20,55 @@
 </head>
 <body>
 
-  <!--Fixed Navbar-->
+  <!-- Fixed Navba r-->
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper red darken-4">
         <a href="#" class="brand-logo">OldWest</a>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#servizi">SERVIZI</a></li>
-          <li><a href="#menu">MENU</a></li>
-          <li><a href="#registrazione">REGISTRATI</a></li>
-          <li><a href="#prenota">PRENOTA</a></li>
-        </ul>
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="#servizi">SERVIZI</a></li>
-          <li><a href="#menu">MENU</a></li>
+          <li><a href="#intro2">MENU</a></li>
           <li><a href="#registrazione">REGISTRATI</a></li>
           <li><a href="#prenota">PRENOTA</a></li>
         </ul>
       </div>
     </nav>
   </div>
-        
-  <!--Intro-->
+
+  <ul id="mobile-demo" class="side-nav">
+    <li><a href="#servizi">SERVIZI</a></li>
+    <li><a href="#menu">MENU</a></li>
+    <li><a href="#registrazione">REGISTRATI</a></li>
+    <li><a href="#prenota">PRENOTA</a></li>
+  </ul>
+
+  <!-- Intro -->
   <div id="index-banner" class="parallax-container">
     <div class="section-intro no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center red-text text-darken-4">OldWest</h1>
+        <h1 class="header center red-text text-darken-4">Pizzeria. Birreria. Griglieria.</h1>
         <div class="row center">
-          <h5 class="header-subtitle col s12 light">CIBO-BEVANDE</h5>
-           <h5 class="header-subtitle col s12 light">... e altro ancora!</h5>
+          <h5 class="header-subtitle col s12 light">Cibo-Bevande</h5>
+           <h5 class="subtitle col s12 light">... e altro ancora!</h5>
         </div>
         <div class="row center">
           <a href="#servizi" class="btn-large waves-effect waves-light red darken-4">Scopri i nostri servizi</a>
         </div>
-        <br><br><br><br>
+        <br>
 
       </div>
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-  <!--Servizi-->
+  <!-- Servizi -->
   <div id="servizi" class="container">
     <div class="section">
       <div class="col-servizi">
 
-        <!--Icon Section-->
+        <!-- Icon Section -->
         <div class="row">
           <div class="col s12 m4">
             <div class="icon-block">
@@ -86,7 +87,7 @@
               <h5 class="center light red-text text-darken-4">Viziati! Chiedi panini, pizze e hamburger a domicilio per avere sempre a portata di mano l'ottimo gusto della nostra cucina! Per ogni pizza ordinata hai una bibita o birra in omaggio!</h5>
             </div>
           </div>
-          
+
           <div class="col s12 m4">
             <div class="icon-block">
               <h2 class="center red-text text-darken-4"><i class="material-icons">tv</i></h2>
@@ -96,32 +97,32 @@
             </div>
           </div>
         </div>
-      </div>
+      </div><br><br><br><br>
 
     </div>
   </div>
 
-  <!--Intro2-->
+  <!-- Intro2 -->
   <div id="index-banner" class="parallax-container valign-wrapper">
     <div id="intro2" class="section-intro2 no-pad-bot">
-      <div class="container">
+      <div class="container-intro2">
         <div class="row center">
-          <h3 class="header col s12 light">Signori...</h3>
+          <h3 class=" col s12 light">Signori...</h3>
           <h4 class="header center red-text text-darken-4">IL MENU</h4>
         </div>
         <div class="row center">
+        <a href="#menu" class="btn-large waves-effect waves-light red darken-4">Scopri il nostro menu</a>
         </div>
-        <br><br>
 
       </div>
     </div>
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+  </div><br><br><br>
 
-  <!--MENU-->
+  <!-- MENU -->
   <div id="menu" class="container">
     <div class="section-menu">
-    
+
       <div class="divider"></div>
       <div class="section">
         <h5>PIZZE</h5>
@@ -142,7 +143,7 @@
       <div class="section">
         <h5>PIADINE E TOAST</h5>
         <p>SAPORITA (prosciutto cotto, mozzarella di bufala, pomodori)..........5,00€</p>
-      </div>  
+      </div>
 
     </div>
   </div>
@@ -157,8 +158,8 @@
           <h5 class="col s12 registrazione-subtitle">Registrati per essere aggiornato sulle nostre offerte</h5>
           <div class="row">
            <div class="input-field col s12 l6 offset-l3">
-             
-         <!-- Begin MailChimp Signup Form -->  
+
+         <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
               <form action="http://OldWest.us15.list-manage.com/subscribe/post?u=bd37fdce138d53b551723ff31&amp;id=b1b714d237" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                   <div id="mc_embed_signup_scroll">
@@ -175,10 +176,9 @@
       </div>
     </div>
     <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-  <br><br>
+  </div><br><br>
 
-  <!-- Prenota-->
+  <!-- Prenota -->
   <div id="prenota" class="parallax-container valign-wrapper">
     <div class="section-prenota no-pad-bot">
       <div class="container">
@@ -214,7 +214,7 @@
   </footer>
 
 
-  <!--  Scripts-->
+  <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
