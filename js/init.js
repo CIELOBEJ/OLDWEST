@@ -8,7 +8,13 @@
     draggable: true // Choose whether you can drag to open on touch screens
   }
 );
+    $(document).ready(function(){
+     
+      $('.carousel').carousel();
 
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+    });
+   
     $('.parallax').parallax();
 
   }); // end of document ready
