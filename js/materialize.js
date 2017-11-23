@@ -7607,8 +7607,8 @@ Picker.extend( 'pickadate', DatePicker )
       var defaults = {
         duration: 200, // ms
         dist: -100, // zoom scale TODO: make this more intuitive as an option
-        shift: 0, // spacing for center image
-        padding: 0, // Padding between non center items
+        shift: 20, // spacing for center image
+        padding: 50, // Padding between non center items
         fullWidth: false, // Change to full width styles
         indicators: false, // Toggle indicators
         noWrap: false, // Don't wrap around and cycle through items.

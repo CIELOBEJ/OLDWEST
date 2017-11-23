@@ -7,6 +7,7 @@
  */
 body {
   font-family: 'Roboto Slab', serif;
+
 }
 
 nav ul a,
@@ -26,12 +27,12 @@ p {
   line-height: 2rem;
 }
 
-.button-collapse {
-  color: #fff;
+span {
+  font-size: 1.3em;
 }
 
-#nav-mobile {
-  
+.button-collapse {
+  color: #fff;
 }
 
 .parallax-container {
@@ -43,12 +44,7 @@ p {
 
 .section-intro {
   height: 100%;
-  margin-bottom: 100px;
-}
-
-.section-intro2{
-  height: 100%;
-  width: 100%;
+  width: : 100%;
   margin-bottom: 100px;
 }
 
@@ -57,6 +53,11 @@ p {
 }
 
 .header-subtitle {
+  margin-top: 10%;
+  font-size: 3.1em;
+}
+
+.subtitle {
   margin-top: 5%;
   font-size: 1.3em;
 }
@@ -83,14 +84,11 @@ p {
 
 }
 
-.col-servizi {
-  margin-top: 60px;
+.section-servizi {
+  margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.col-menu {
-  margin-top: 60px;
-  margin-bottom: 100px;
+  height: 100%;
+  width: 100%;
 }
 
 .icon-block {
@@ -99,15 +97,109 @@ p {
 
 .icon-block .material-icons {
   font-size: inherit;
+  color: #436761;
 }
+.container-servizi {
+  height: 100%;
+  width: 100%
+  margin-top:100px;
+  margin-bottom: 100px;
+}  
 
 #servizi h5 {
   font-size: 1.3em;
   line-height: 1.6em;
 }
 
-.section-registrazione {
+.section-intro2 {
   height: 100%;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.container-intro2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+#intro2 h4 {
+  font-family: 'Courgette', cursive;
+  font-size: 4em;
+
+}
+
+.section-specialità {
+  height: 100%;
+  width: 100%;
+}
+
+.section-intro3 {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-intro3 {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+} 
+
+#intro3 h4 {
+  font-family: 'Courgette', cursive;
+  font-size: 4em;
+  
+}
+
+.section-PIZZA { 
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+} 
+
+#MENU h2 {
+  font-size: 1.5em;
+}
+.container-PIZZA {
+  background-color: #757575;
+  
+}
+   .card .card-content {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+   
+.container-HAMBURGER {
+  background-color: #516956;
+  
+} 
+  .carousel .carousel-item {
+    height: 300px;
+    width: 360px;
+  }  
+
+#HAMBURGER h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.container-MENU3 {
+  background-color: #424242;
+}  
+
+.section-registrazione { 
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -136,36 +228,49 @@ p {
   line-height: 0,5em;
 }
 
-.section-menu{
-  height: 100%;
-  margin-bottom: 100px;
-}
-
 .section-prenota {
-  height: 100%
-  margin-bottom:100px;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 .prenota-icon {
   font-size: 7em;
   margin-top: 60px;
-  color: #001427;
+  color: #212121;
 }
 
 .prenota-subtitle {
   font-size: 2em;
   margin-top: 5%;
   line-height: 2em;
-  color: #001427;
+  color: #212121;
 }
 
 .btn-prenota {
   width: 100%;
 }
 
+.section-orari {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+#orari h3 {
+  font-size: 1.6em;
+}  
+
+#orari p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+} 
+
 footer.page-footer {
   margin: 0;
-  background-color: #01172f;
+  background-color: #436761;
 }
 
 .social-icon {
