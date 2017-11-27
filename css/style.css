@@ -50,11 +50,7 @@ span {
 
 a.goog-te-menu-value > span {
   color: #006064;
-  background: #000; 
-}
-
-div.goog-te-gadget-simple {
-  border-radius: 5px;
+  padding: 7px; 
 }
 
 .header {
